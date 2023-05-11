@@ -27,3 +27,5 @@ Optimize chunk size: We can optimize the chunk size based on the user's network 
 Implement a pause and resume feature: The system can provide a feature to pause and resume the upload process. The user can pause the upload and resume it at a later time.
 
 By implementing the above steps, we can design an efficient video upload system for users with low network bandwidth.
+
+<img width="1728" alt="Screenshot 2023-05-11 at 9 04 14 AM" src="https://github.com/Ishhyoboytarun/Video-Upload-System/assets/36428256/7d9a37db-de19-4b2f-89a0-e0d94fda7964">
