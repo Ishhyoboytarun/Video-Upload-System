@@ -91,3 +91,11 @@ func resumeUpload(sessionId string, file *os.File, fileSize, uploadedBytes int64
 	// recursively call resumeUpload with the updated uploadedBytes
 	return resumeUpload(sessionId, file, fileSize, uploadedBytes)
 }
+
+/*
+This implementation uses a recursive function resumeUpload to handle each upload attempt. 
+It simulates unreliable network connectivity by dropping the connection after 50% upload 
+progress, and randomly failing the upload with a 10% probability to test the retry mechanism. 
+The function also prints progress information to the console, and returns an error if the 
+upload fails. The main function calls resumeUpload up to maxAttempts times, with a delay.
+*/
